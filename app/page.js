@@ -9,6 +9,7 @@ import {useEffect} from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Cpu, Zap, Video } from 'lucide-react'
+import Hero from "./Home/page";
 
 function FeatureCard({ icon, title, description }) {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
    <UserButton/> */}
 
    {/* //new code  */}
-     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-144px)]">
+     {/* <div className="flex flex-col items-center justify-center min-h-[calc(100vh-144px)]">
       <h1 className="text-4xl md:text-6xl font-bold text-center mb-6 bg-gradient-to-r from-[#8A89FF] to-[#A5A4FF] text-transparent bg-clip-text">
         Transform Web Pages into Captivating Videos
       </h1>
@@ -77,6 +78,12 @@ export default function Home() {
           description="AI-driven animations that bring your web content to life in unique and engaging ways."
         />
       </div>
+    </div> */}
+
+    <div className="w-full h-full">
+    <div className="flex flex-col gap-28">
+    <Hero/>
+    </div>
     </div>
 
    </>

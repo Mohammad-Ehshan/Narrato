@@ -29,8 +29,9 @@
 23. npx shadcn@latest add dialog
 24. npm install sass
 25. npm install react-icons
+26. npm i framer-motion
+27. npm i @heroicons/react
 
-26.Website Hosted Link: https://link-o-matic-llpehxxal-mohammad-ehshans-projects.vercel.app
-27.npm install next@latest react@latest react-dom@latest eslint-config-next@latest
+28.npm install next@latest react@latest react-dom@latest eslint-config-next@latest
 
 

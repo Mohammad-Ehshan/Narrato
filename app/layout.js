@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
 
       {/* new code  */}     
 
-      <body className={`${inter.className} bg-[#0F1729] text-gray-200 min-h-screen flex flex-col`}>
+      <body className={`${inter.className} bg-black text-gray-200 min-h-screen flex flex-col`}>
         <header className="bg-[#0F1729] border-b border-gray-800">
           <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
             <Link href="/" className="flex items-center space-x-2">
@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
         {/* <Footer/> */}
         <footer className="bg-[#0F1729] border-t border-gray-800 text-gray-400 py-4">
           <div className="container mx-auto px-4 text-center">
-            © 2025 AI WebToVideo. All rights reserved.
+            © 2025 AI Narrato. All rights reserved.
           </div>
         </footer>
       </body>
