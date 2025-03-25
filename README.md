@@ -5,9 +5,7 @@
 ## 🏆 Achievements  
 
 ✅ **Showcased at AI Horizon Hackathon, NSUT**  
-
 ✅ **Developed for the Storytelling App Problem Statement**  
-
 ✅ **Designed to analyze user mood & mental health**  
 
 ---
@@ -15,18 +13,6 @@
 ## 📖 About Narrato  
 
 **Narrato** is an **AI-powered storytelling app** that generates personalized videos based on user moods and mental health analysis. Users provide a **text prompt**, and our system creates **engaging video narratives** that reflect their emotions and thoughts.  
-
----
-
-## 🛠 Tech Stack  
-
-- **Framework**: Next.js (App Router)  
-- **Styling**: Tailwind CSS + ShadCN Components  
-- **Authentication**: Clerk  
-- **AI**: Google Generative AI (Gemini API)  
-- **State Management**: React Hooks & Context API  
-- **Utilities**: UUID, Moment.js, Framer Motion, Lucide Icons  
-- **Video Generation**: AI-powered media synthesis  
 
 ---
 
